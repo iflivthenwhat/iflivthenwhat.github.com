@@ -1,0 +1,119 @@
+body {
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#ifthisthenthat {
+    color: #333;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+#ifthisthenthat a:after {
+    content: "";
+    display: block;
+    background-color: rgb(212, 255, 0);
+    position: absolute;
+    bottom: 4%;
+    height: 7%;
+    left: 0;
+    right: 0;
+}
+
+#this a, #that a {
+    text-decoration: none;
+    color: rgb(212, 255, 0);
+    position: relative;
+    cursor: pointer;
+}
+
+#intro {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+#this-content, #that-content {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Light","Helvetica Neue," Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    max-width: 950px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-top: 1px solid #f3f3f3;
+}
+
+#this-content p > a, #this-content p > a:visited {
+    color: black;
+}
+
+
+#description {
+    float: left;
+    width: 30%;
+    line-height: 1.4;
+}
+
+#dribbble-gallery {
+    float: right;
+    width: 65%;
+}
+
+#dribbble-gallery div {
+    float: left;
+}
+
+#portrait {
+    width: 45%;
+    cursor: pointer;
+    float: left;
+}
+
+#pointer {
+    font-size: 24px;
+}
+
+#next-btn, #dribbble-btn {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+    color: white;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    clear: both;
+    outline: none;
+    cursor: pointer;
+}
+
+#next-btn {
+    background-color: #ff0000;
+    display: block;
+    float: right;
+    padding: 10px 30px;
+    width: 150px;
+}
+
+#dribbble-btn {
+    background-color: #32ccff;
+    padding: 8px 10px;
+    width: 20%;
+    border: none;
+}
+
+#dribbble-input {
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+}
